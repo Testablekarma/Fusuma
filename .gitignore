@@ -2,6 +2,8 @@
 .DS_Store
 
 # Xcode
+Example/FusumaExample.xcodeproj/project.pbxproj
+uma.xcodeproj/project.pbxproj
 build/
 *.pbxuser
 !default.pbxuser
