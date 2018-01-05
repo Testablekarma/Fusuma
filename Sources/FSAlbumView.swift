@@ -67,6 +67,7 @@ final class FSAlbumView: UIView, UICollectionViewDataSource, UICollectionViewDel
         if images != nil { return }
 		
 		self.isHidden = false
+        self.clipsToBounds = true
 
         // Set Image Crop Ratio
         if let heightRatio = delegate?.getCropHeightRatio() {
